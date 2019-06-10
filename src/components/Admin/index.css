@@ -1,0 +1,60 @@
+.adminPanel {
+    padding-top: 4%;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.adminTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+.adminTable, th, td {
+    padding: 1%;
+}
+
+.adminTable th {
+    background-color: #BDBDBD;
+}
+.adminTable #index {
+    width: 15px;
+}
+.adminTable #name {
+    width: 230px;
+}
+.adminTable #phone {
+    width: 150px;
+}
+.adminTable #email {
+    width: 230px;
+}
+.gridCode {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.gridCode .code {
+    font-size: 14px;
+}
+.codeIncourse {
+    background-color: #540606;
+    font-size: 18px;
+    padding: 3px 5px;
+    color: white;
+}
+.showStdinCourse {
+    font-size: 20px;
+}
+#ลำดับ {width: 5%;}
+#ชื่อคอร์ส {width: 30%;}
+#รายวิชา {width: 30%;}
+#จำนวนนักเรียน {width: 15%;}
+#รายละเอียด {width: 20%;}
+
+#courseHead {
+    margin-bottom: 1%;
+}
+
+#courseCountLabel {
+    float: left;
+}

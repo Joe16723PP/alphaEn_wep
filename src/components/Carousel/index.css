@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+.heroImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 110vh;
+}
+.fadingElement{
+  animation:fading 5s;
+  text-align: center;
+}
+.fadingElement .sin2018 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 14px;
+  color:#D8D8D8;
+  letter-spacing: 3px;
+}
+.fadingElement .joinUsBtn {
+  border: none;
+  width: 200px;
+  height: 50px;
+  background-color: #DF7401;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  transition: 0.5s;
+  font-size: 25px;
+  font-weight: normal;
+  border-radius: 22px;
+  color: white;
+}
+.fadingElement .joinUsBtn:hover {
+  background-color: #B45F04;
+  color :wheat;
+  transform: scale(1.05);
+
+}
+.detailHeroImg {
+  animation:fading 5s;
+  padding: 0 10% 0 10%;
+
+}
+.textHeroImg {
+  padding-top: 6rem;
+}
+.detailHeroImg .hrCarousel {
+  margin: 45px auto;
+  width: 100%;
+  height: 1.2px;
+  background-color: #848484;
+}
+.detailHeroImg .griddetailHeroImg{
+  padding: 0 4% 0 4%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.detailHeroImg .griddetailHeroImg .subGridDetailHeroImg{
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 15px; 
+}
+.detailHeroImg .griddetailHeroImg .subGridDetailHeroImg .headerDetailHeroImg{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.detailHeroImg .griddetailHeroImg .subGridDetailHeroImg .subHeaderDetailHeroImg {
+  font-size: 16px;
+  color :#D8D8D8;
+}
+.fadingElement .HeaderCarousel{
+  color: white;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fadingElement .subHeaderCarousel{
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+}
+@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.hero-image {
+  width: 100%;
+  padding: 0px 60px 60px 60px;
+}
+.hero-text {
+  text-align: center;
+  padding-top: 550px; 
+}
+.textHeroImg .divBtnfreeCourse {
+  animation:fading 5s;
+}
+.textHeroImg  .divBtnfreeCourse .linkFreeCourse .gotofreecourse {
+  border-style: solid;
+  text-align: center;
+  border-color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 100%;
+}
+.textHeroImg  .divBtnfreeCourse .linkFreeCourse .gotofreecourse:hover {
+  border-color: gray;
+}
+.textHeroImg  .divBtnfreeCourse .linkFreeCourse {
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  text-align: center;
+  border-color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 100%;
+  padding: 10px 25px 10px 25px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+.textHeroImg  .divBtnfreeCourse .linkFreeCourse:hover {
+  color: gray;
+  border-color: gray;
+}
+.textHeroImg .divBtnfreeCourse {
+  margin: 0 auto;
+  width: 375px;
+  padding-top: 20px; 
+}
+
+@media screen and (max-width: 900px) {
+  .heroImg {
+    height: auto;
+    padding-bottom: 10%;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .fadingElement .HeaderCarousel{
+    font-size: 50px;
+  }
+  .fadingElement .subHeaderCarousel {
+    font-size: 30px;
+  }
+  .textHeroImg {
+    padding-top: 6rem;
+  }
+  .detailHeroImg .griddetailHeroImg .subGridDetailHeroImg{
+    padding-left: 5px;
+    padding-right: 5px; 
+    padding-bottom: 5px;
+  }
+  .detailHeroImg .griddetailHeroImg{
+    padding: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .detailHeroImg .griddetailHeroImg .subGridDetailHeroImg .headerDetailHeroImg{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .detailHeroImg .griddetailHeroImg .subGridDetailHeroImg .subHeaderDetailHeroImg {
+    font-size: 14px;
+    color :#D8D8D8;
+  }
+}

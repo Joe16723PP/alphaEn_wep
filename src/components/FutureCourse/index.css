@@ -1,0 +1,8 @@
+.noDetail {
+    padding: 20% 20% 20% 20%;
+}
+@media screen and (max-width: 600px) {
+    .noDetail .sub h1{
+       font-size: 18px;
+    }
+  }

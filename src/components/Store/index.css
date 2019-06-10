@@ -1,0 +1,138 @@
+.wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+    background-color: white;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #404040;
+}
+
+.product-text {
+    height: 300px;
+    width: 327px;
+}
+
+.product-text .product-name {
+    margin: 0 0 0 38px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+
+.product-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    color: #FAFAFA;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FAAC58;
+}
+
+.span {
+    display: inline-block;
+    height: 50px;
+    font-size: 34px;
+}
+
+.product-price-btn a {
+    padding: 12px 0 0 57px;
+    float: right;
+    height: 50px;
+    width: 176px;
+    margin: 0 15px 0 0px;
+    border: none;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #DF7401;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product-price-btn a:hover {
+    filter: brightness(1.3);
+    text-decoration:none; 
+}
+.product-page .header .storeHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+}
+.product-page .header .storePara {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.product-page .header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    background-color: #F3E2A9;
+    padding: 150px 50px;
+}
+
+.grid-product {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 1100px) {
+    .grid-product {
+        grid-template-columns: 100%;
+    }
+  }

@@ -1,0 +1,113 @@
+.rowCourse {
+    width: 100%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 7.5%;
+    padding-right: 5%;
+}
+.rowCourse .courseColumn {
+    width: auto;
+    padding: 2rem 5px 2rem 5px;
+}
+.hr {
+    padding: 0 7% 0 7%;
+    color: #540606;
+}
+.freeCourse {
+    padding: 0 7% 0 8%;
+}
+.freeCourse .jumbotron {
+    color: white;
+    background-color: #540606;
+    display: grid;
+    padding-left: 50px;
+    grid-template-columns: 15% auto;
+}
+.freeCourse .jumbotron .logofree {
+    max-width: 120px;
+}
+.freeCourse .jumbotron .subDetailFreeCourse {
+    font-size: 30px;
+}
+.freeCourse .jumbotron .subDetailFreeCourse .glyphicon-cog {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.subJumbotron .freeListCourse {
+    font-size: 30px;
+}
+.subJumbotron ul > li > a {
+    font-size: 20px;
+    color: #FF8000;
+}
+
+.subJumbotron ul > li {
+    width: 200px;
+}
+.subJumbotron .hintFreeCourse {
+    font-size: 15px;
+    color: #848484;
+}
+.subJumbotron ul {
+    justify-items: center;
+    font-size: 15px;
+}
+.freeCourse .jumbotron .freeHeader {
+    font-size: 50px;
+}
+.col {
+    margin: 2rem auto;
+}
+.AnnDiv {
+    margin: 2rem auto;
+
+}
+.allCourse {
+    text-align: center;
+    margin: 3rem auto;
+}
+.allCourse .allCourseBtn {
+    text-align: center;
+    width: 90%;
+    height: 80px;
+    font-size: 40px;
+    font-weight: normal;
+    border-radius: 30px;
+    background-color: #540606;
+    border-color: #540606;
+    color: white;
+}
+
+.allCourse .allCourseBtn:hover {
+    filter : brightness(80%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .allCourse .allCourseBtn {
+       font-size: 23px;
+    }
+    .rowCourse {
+        margin: 0 auto;
+        grid-template-columns: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .freeCourse .jumbotron {
+        grid-template-columns: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .freeCourse .jumbotron .logofree {
+        max-width: 80px;
+    }
+    .freeCourse .jumbotron .subDetailFreeCourse {
+        font-size: 20px;
+    }
+    .subJumbotron ul > li {
+       margin: 0 auto;  
+    }
+  }
+

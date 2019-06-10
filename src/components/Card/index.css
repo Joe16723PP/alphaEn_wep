@@ -1,0 +1,92 @@
+/* card */
+.card-course img {
+    max-width: 250px;
+    border-radius: 4px;
+    margin: 0 auto;
+  }
+  .card-course {
+    padding: 5px 5px;
+    max-width: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #FFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); 
+  }
+
+  .ratingFixed {
+    border : none;
+    background-color: #BF0609;
+    width: 50px;
+    padding-top: 6px;
+    padding-left: 7px; 
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+ .card-course:hover:after {
+    opacity: 1;
+  }
+  .card-course:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      filter : brightness(0.97);
+      cursor: pointer;
+      transform: scale(1.03);
+  }
+  .textInCard {
+    padding: 2px 16px;
+    font-size: 16px;
+  }
+  .textInCard .topicCourse {
+    font-size: 22px;
+    color: #B40404;
+    font-weight: bold;
+  }
+  .textInCard .priceCourse {
+    /*
+    display: grid;
+    grid-template-columns: 65% 35%;
+    */
+  }
+  .textInCard .priceCourse .tutor {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .textInCard .priceCourse .price {
+    text-align: center;
+    font-size: 18px;
+    color : #3ADF00;
+    font-weight: 900;
+    border-style: solid;
+    border-color: #58FA58;
+    border-radius: 20px;
+    padding: 0 5px 0 5px;
+  }
+  .textInCard .priceCourse {
+    padding: 3px 0 8px 0;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .card-course {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .textInCard .priceCourse {
+      grid-template-columns: 100%;
+      justify-items: center;
+    }
+    .textInCard .priceCourse .tutor {
+      text-align: center;
+      padding: 0px 0 5px 0;
+    }
+    .textInCard .priceCourse .price {
+      width: 100px;
+      text-align: center;
+    }
+  }
+

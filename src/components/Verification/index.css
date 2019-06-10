@@ -1,0 +1,55 @@
+.verification {
+    -moz-box-shadow:    2px 5px 10px 3px #ccc;
+    -webkit-box-shadow: 2px 5px 10px 3px #ccc;
+    box-shadow:         2px 5px 10px 3px #ccc;
+    border-radius: 10px;
+    padding: 30px 0; 
+    text-align: center;
+    margin: 50px auto;
+    width: 400px;
+}
+.InitInput{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 1.2rem;
+    font-size: 13px;
+}
+
+.InitInput:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.headerInitUser {
+    font-size: 15px;
+    font-weight: 800;
+}
+.verification .logo {
+    max-width: 100px;
+}
+.verification .headerText{
+    margin: 10px auto;
+    font-size: 20px;
+}
+.verification .footerText {
+    margin: 10px auto;
+    padding: 0 20px;
+}
+.verification .emailVerBtn {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.verification .emailVerBtn:hover {
+    transform: scale(1.05);
+    color: #ccc;
+    filter: brightness(0.8);
+}
+@media screen and (max-width: 380px) {
+    .verification {
+        width: 360px;
+    }
+}

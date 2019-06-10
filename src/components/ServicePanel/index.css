@@ -1,0 +1,37 @@
+.serviceHeader {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#Servicelogo {
+    width: 150px;
+}
+
+.serviceDetail {
+    font-size: 28px;
+    font-weight: 600;
+    color: #B40404;
+}
+.serviceSubDetail {
+    font-size: 21px;
+    padding: 15px 12% 0 12%;
+}
+.serviceImgDiv .serviceImg {
+    width: 150px;
+    filter: brightness(1);
+}
+.serviceImgDiv {
+    justify-items: center;
+    padding: 10px;
+    height: 180px;
+}
+.rowService {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+@media screen and (max-width: 900px) {
+    .rowService {
+        grid-template-columns: 100%;
+    }
+}

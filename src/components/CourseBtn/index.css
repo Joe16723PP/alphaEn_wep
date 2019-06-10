@@ -1,0 +1,71 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 7%;
+    padding-right:7%; 
+}
+.grid .grid-item {
+    width: 100%;
+    margin: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.imgContainer .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+
+}
+.grid .grid-item .imgContainer #subj1 {
+    width: 100%;
+    height: 300px;
+    filter: brightness(80%);
+    transition: 0.3s;
+}
+.grid .grid-item .imgContainer #subj1:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    cursor: pointer;
+}
+.grid .grid-item .imgContainer:hover .tooltiptext{
+    visibility: visible;
+}
+.grid .grid-item .imgContainer .textInimg{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#F7DC6F;
+    font-size: 45px;
+}
+.grid .grid-item .imgContainer {
+    position: relative; 
+}
+
+
+@media screen and (max-width: 900px) {
+    .grid .grid-item {
+        width: 100%;
+        padding: 0 15px 0 15px;
+        margin: 0 auto;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .grid .grid-item .imgContainer .textInimg{
+        font-size: 30px;
+    }
+    .grid .grid-item .imgContainer #subj1 {
+        height: 220px;
+        padding-bottom: 1rem;
+    }
+  }

@@ -1,0 +1,143 @@
+
+.tabAcc {
+    overflow: hidden;
+    padding: 0 0 0 6%;
+    border: 1px solid #540606;
+    background-color: #540606;
+}
+
+/* Style the buttons inside the tab */
+.tabAcc .tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 18.5px;
+    color: #B9B7B7;
+}
+
+/* Change background color of buttons on hover */
+.tabAcc .tablinks:hover {
+    color: white;
+}
+
+.imgTabAcc {
+    max-width: 30px;
+    padding: 0 3px 0 3px;
+    filter:invert(80%);
+}
+
+.accDetail {
+    padding: 2rem 2rem 2rem 10rem;
+    font-size: 16px;
+}
+
+.topicAcc {
+    color: #540606;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.subAccDetail {
+    border-radius: 1rem;
+}
+
+.tableInAccount {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+.tableInAccount th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.tableInAccount tr:nth-child(odd){background-color: #f2f2f2}
+.tableInAccount td:nth-child(1) {
+    font-weight: 600;
+	width: 18%;
+    border-right: 1px solid #f2f2f2;
+}
+
+.tableInAccount th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Full-width input fields */
+.userInput{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 1.2rem;
+}
+
+.userInput:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.smtUserBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 1.2rem; 
+    opacity: 0.9;
+}
+
+.smtUserBtn:hover {
+    opacity:1;
+}
+.smtUserBtn:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.smtUserBtn {
+  float: left;
+  width: 60%;
+}
+
+/* Add padding to userCon elements */
+.userCon {
+    padding: 16px;
+}
+
+/* Clear floats */
+.submitUserBtn::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#checkCorrect {
+    color: red;
+}
+@media screen and (max-width: 600px) {
+    .accDetail {
+        padding: 5rem 2rem 5rem 2rem;
+        font-size: 16px;
+    }
+    .tabAcc {
+        padding: 0 0 0 0%;
+    }
+  }

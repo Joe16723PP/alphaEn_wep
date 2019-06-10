@@ -1,0 +1,96 @@
+footer {
+    /*background-color: #292c2f;*/
+    background-color: #540606;
+    color : whitesmoke;
+    padding: 1rem;
+}
+.Section {
+    margin: 0% auto;
+}
+.rowContactBar {
+    width: 100%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.column {
+    width: 100%;
+    margin: 0 auto;
+}
+.column a img {
+    max-width: 10rem;
+    margin-bottom: 2rem;
+}
+.column a img:hover {
+    filter : brightness(60%);
+    cursor: pointer;
+}
+.element {
+    margin-bottom : 1 auto;
+}
+.element img {
+    filter: drop-shadow(5px 5px 8px black);
+    border-radius: 10px;
+    max-width: 50px;
+    opacity: 0.8;
+}
+.rowE #content {
+    padding-top : 10px;
+    padding-bottom: 6px;
+} 
+
+.rowE {
+      display: grid;
+      grid-template-columns: 20% 70%;
+      padding-bottom: 1.5rem; 
+}
+.column .Topic {
+    font-size : 30px;
+    padding-bottom : 5px;
+}
+.column .Social {
+    margin-top: 30px;
+}
+.column .Social img {
+    filter: drop-shadow(3px 3px 5px black);
+    border-radius: 10px;
+    max-width: 60px;
+    opacity: 0.8;
+    margin : 0 5px;
+}
+.column .Social img:hover {
+    filter : brightness(60%);
+    cursor: pointer;
+}
+
+
+.copyRight {
+    color:  #C07C7C;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-style: oblique;
+    font-size: 12px;
+}
+#content {
+    color : #D8D8D8;
+    font-size: 18px;
+}
+@media screen and (max-width: 900px) {
+    footer .column {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        padding: 5rem 0 5rem 0;
+    }
+    footer .column .element .rowE{
+        grid-template-columns: 100%;
+        justify-items: center;
+    }
+    footer .rowContactBar {
+        grid-template-columns: 100%;
+    }
+  }

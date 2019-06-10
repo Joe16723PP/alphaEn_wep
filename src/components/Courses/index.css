@@ -1,0 +1,278 @@
+.mainContainer {
+    background-color: #E6E6E6;
+    /*border: 1px solid #ccc;*/
+    padding: 2rem;
+    /*padding: 0 15% 0 15%;*/
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.mainContainer .subContainer {
+    padding: 0 2% 0 5%;
+}
+.mainContainer .subContainer #imgCourse {
+    border-radius: 1.5rem;
+    border: 1px solid;
+    border-color: #ccc;
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.mainContainer .subContainer #detail{
+    padding: 2rem 2rem 2rem 2rem;
+}
+.mainContainer .subContainer .courseName #topic {
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 30px;
+}
+.mainContainer .subContainer .courseName #subtopic {
+    padding: 0rem 2rem 0rem 2rem;
+    color: gray;
+    font-size: 15px;
+}
+.mainContainer .subContainer .courseName {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    color: white;
+    background-color: #540606;
+}
+
+.mainContainer .subContainer .courseName .logoCourse{
+    margin-left : 70%;
+    margin-top : 2rem;
+}
+.mainContainer .subContainer .courseName .logoCourse #logoIncourse {
+    max-width: 80px;
+}
+.videoPart {
+    margin: 3rem 20%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.courseDetail {
+    border: 1px solid #ccc;
+    padding: 5% 10% 10% 5%;
+}
+.tutorDetail {
+    border: 1px solid #ccc;
+    padding: 5% 10% 10% 5%;
+}
+
+.videoDetail {
+    border: 1px solid #ccc;
+    padding: 0;
+}
+.videoDetail .tableInCourse{
+    font-size: 16px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #540606;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    background-color: #540606;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 18.5px;
+    color: #B9B7B7;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color: white;
+}
+.coursesHeader {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1c1c1c;
+    text-align: center;
+    margin: 80px auto;
+}
+.rowCourse .linkCard{
+    color: #424242;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.paymentCon {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    border-radius: 1.2rem; 
+    border: 1px solid;
+    border-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.subPaymentCon {
+    padding: 2px 2px 2px 2px;
+}
+
+.subPaymentCon .infoCon {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.subPaymentCon .infoCon .info {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.subPaymentCon .priceCostCon {
+    text-align: center;
+    padding-top: 18px;
+}
+.subPaymentCon .priceCostCon .priceCost{
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+}
+.paymentCon .subPaymentCon .payBtnCon {
+    border-bottom-right-radius: 1.2rem;
+    border-top-right-radius: 1.2rem; 
+    margin: 0 auto;
+    padding: 50px 30px 50px 40px;
+}
+
+.paymentCon .subPaymentCon .payBtnCon .btn-success {
+    padding-top: 15px;
+    width: 300px;
+    height: 60px;
+    border-radius: 3rem;
+
+}
+
+.paymentCon .subPaymentCon .payBtnCon .activeCode .btn-primary {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+}
+/* table */
+.tableInCourse {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10px;
+}
+
+.tableInCourse th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+.tableInCourse tr:nth-child(odd){background-color: #f2f2f2}
+
+.tableInCourse td:nth-child(1) {
+    font-weight: 600;
+	width: 20%;
+    border-right: 1px solid #f2f2f2;
+}
+
+.tableInCourse td:nth-child(2) {
+	width: 50%;
+    border-right: 1px solid #f2f2f2;
+}
+.tableInCourse td:nth-child(3) {
+	width: 30%;
+    border-right: 1px solid #f2f2f2;
+}
+.tableInCourse th {
+    background-color: #4CAF50;
+    color: white;
+}
+.videoDetail {
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+.activeCodeInput{
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px auto;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    background: #f1f1f1;
+    border-radius: 1.2rem;
+}
+
+.activeCodeInput:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.activeCode .activeInput {
+    border : none;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #04B404;
+}
+
+.activeCode .activeInput:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+@media screen and (max-width: 900px) {
+    .paymentCon {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .activeCodeInput{
+        text-align: center;
+    }
+    .mainContainer {
+        /*border: 1px solid #ccc;*/
+        padding: 0 1.5px 0 1.5px;
+    }
+    .mainContainer .subContainer .courseName .logoCourse{
+        margin-left : 40%;
+    }
+    .mainContainer .subContainer .courseName .logoCourse #logoIncourse {
+        max-width: 80px;
+    }
+    .tableInCourse td{
+        font-size: 13px;
+    }
+    .tableInCourse td:nth-child(1) {
+        font-weight: 600;
+        width: 100px;
+    }
+    
+    .tableInCourse td:nth-child(2) {
+        width: 300px;
+    }
+    .tableInCourse td:nth-child(3) {
+        width: 200px;
+    }
+    .tableInCourse th {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+    }
+}

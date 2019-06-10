@@ -1,0 +1,13 @@
+.emailVerBtn {
+    border: none;
+    background-color: green;
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.emailVerBtn:disabled {
+    cursor:not-allowed;
+    background-color: gray;
+}

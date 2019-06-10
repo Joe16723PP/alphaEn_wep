@@ -1,0 +1,37 @@
+/* announce */
+#anncImg {
+    margin: 5px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+  }
+  #anncImg img:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
+  
+  #anncImg img{
+    width: 100%;
+  }
+
+  .row {
+      margin: 0 auto;
+  }
+  .colAnnc {
+      margin: 0 auto; 
+  }
+  #anncImg p {
+      font-size: 30px;
+      padding-top: 5px;
+  }
+  
+@media screen and (max-width: 600px) {
+  #anncImg {
+    margin: 0px auto;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 5%;
+    }
+}
